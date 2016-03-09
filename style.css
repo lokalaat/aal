@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/*
+Client: Animal Assistance League of Slidell
+Description: A simple website for a small organization.
+Author: Amie Lovas
+Author URI: http://amielovas.com
+*/
+
+
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,300,300italic);
+
+body {
+	font-family: 'Roboto', sans serif;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* headers */
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+h6 {
+	font-size: 1.2em;
+}
+
+
+/********** General **********/
+
+/*body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main {
+	overflow: auto;
+}*/
+
+.page {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/********** Header **********/
+
+/*header {
+	margin: 2% 0;
+	background-color: #ffffff;
+}*/
+
+header {
+	background: #FFFFFF;
+	color: #333333;
+}
+
+/* all logo items */
+
+.logo {
+	align-self: flex-start;
+	flex: 1 0 auto;
+}
+
+/* logo image */
+
+/*.logoimg {
+	margin-right: .5rem;
+}*/
+
+/* logo title */
+
+.logotext {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.logoline1 {
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.logoline2 {
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.logoline3 {
+	font-size: 39px;
+	line-height: 34px;
+}
+
+/********** Navigation **********/
+
+nav {
+	display: flex;
+}
+
+nav a {
+	font-size: 1.1rem;
+	color: #262626;
+	text-align: center;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+
+/********** Main **********/
+
+
+/* Services Section Styles */
+
+.services {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.service {
+	padding: 5% 0 0 0;
+	width: 21%;
+	margin: 0 2%;
+}
+
+.service-icon {
+
+}
+
+.service-title {
+	padding-top: 15%;
+	margin-bottom: 7%;
+}
+
+
+/********** Footer **********/
